@@ -1,0 +1,12 @@
+git init //инициализация репозитория
+
+git config --local user.name "anmru" \\настройка локальной конфигурации (пользователь)
+git config --local user.email "anm-box@yandex.ru" \\для глобальной настройки использовать
+                                                  \\--global при первоначальной настройке
+
+git status
+
+git add -A \\добавть все файлы -А в индекс
+
+git commit -a -m"message: first commit" \\создание коммита
+
