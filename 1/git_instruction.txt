@@ -10,3 +10,16 @@ git add -A \\добавть все файлы -А в индекс
 
 git commit -a -m"message: first commit" \\создание коммита
 
+git log \\посмотреть созданные коммиты
+
+
+Github
+
+git remote add origin https://github.com/Anmrus/probe.git
+
+git branch -M main
+
+git push -u origin main
+
+
+
