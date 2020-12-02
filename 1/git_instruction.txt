@@ -12,7 +12,7 @@ git commit -a -m"message: first commit" \\создание коммита
 
 git log \\посмотреть созданные коммиты
 
-
+ 
 Github
 
 git remote add origin https://github.com/Anmrus/probe.git
@@ -22,4 +22,7 @@ git branch -M main
 git push -u origin main
 
 
+git clone https://github.com/Anmrus/probe.git 2 \\клонируем репозиторий в папку на др. пк
+
+git pull \\обновляем файлы на первом пк после их изменения на другом см. выше
 
